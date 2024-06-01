@@ -12,6 +12,10 @@ public interface ProductServiceI {
 
 	public Product savaProduct(String details, MultipartFile productimg);
 
+	public Product getSingleProduct(int productid);
+
+	public List<Product> deleteSingleProduct(int productid);
+
 	
 
 }
